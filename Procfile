@@ -1,1 +1,1 @@
-web: java -jar /target/sample-0.0.1-SNAPSHOT.war
+web: java -jar target/dependency/webapp-runner.jar --port $PORT simple-war-0.1.war
